@@ -5,7 +5,7 @@ def create_big_hash(data)
   data.each_line do |l|
     w = l.strip
     # add all words with one ?
-    w.length.times do |i|
+    w.length.times do |i| 
       q = String.new(w)
       q[i] = "?"
       h[q].push w
