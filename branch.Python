@@ -9,7 +9,7 @@ def tree(length,n):
     turtle.right(90)         # rotoate right for smaller "fork" branch
     tree(length * 0.5,length/n)      # create second smaller branch
     turtle.left(45)          # rotate back to original heading
-    turtle.backward(length)
+    turtle.backward(length) 
   # move back to original position
   turtle.color("blue")
     return              
