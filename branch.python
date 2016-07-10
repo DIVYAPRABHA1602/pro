@@ -1,5 +1,4 @@
 import turtle
-
 def tree(length,n):
     """ paints a branch of a tree with 2 smaller branches, like an Y"""
     if length < (length/n):
